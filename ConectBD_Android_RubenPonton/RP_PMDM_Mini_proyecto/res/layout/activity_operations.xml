@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/operations"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris_clarisimo_fondo_Google"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_redondeado"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="8dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="@string/str_DNI"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/tv_dni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/Blanco_nuclear" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="@string/str_Full_name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/tv_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/Blanco_nuclear" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tv_description_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="@string/str_Address"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/Blanco_nuclear" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="4dp" >
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="4dp"
+                android:text="@string/str_City"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/tv_pc_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="4dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/Blanco_nuclear" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_redondeado_acciones"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_amount_transfer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="left"
+            android:paddingLeft="8dp"
+            android:text="@string/act_account_movs"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/turquesa_variacion_2" />
+
+        <Button
+            android:id="@+id/btn_check_accounts"
+            style="@style/ButtonBankAPP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/bankapp_list_activated_holo"
+            android:enabled="true"
+            android:minHeight="36dp"
+            android:text="@string/str_Check_accounts"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/Blanco_nuclear"
+            android:textColorLink="@color/Blanco_nuclear" />
+
+        <TextView
+            android:id="@+id/tv_iban_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="left"
+            android:paddingLeft="8dp"
+            android:text="@string/act_credit_card_movs"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/turquesa_variacion_2" />
+
+        <Button
+            android:id="@+id/btn_check_credit_cards"
+            style="@style/ButtonBankAPP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/bankapp_list_activated_holo"
+            android:enabled="true"
+            android:minHeight="36dp"
+            android:text="@string/str_Checks_credit_cards"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/Blanco_nuclear"
+            android:textColorLink="@color/Blanco_nuclear" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="left"
+            android:paddingLeft="8dp"
+            android:text="@string/str_Transactions"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/turquesa_variacion_2" />
+
+        <Button
+            android:id="@+id/btn_transfer_money"
+            style="@style/ButtonBankAPP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/bankapp_list_activated_holo"
+            android:enabled="true"
+            android:minHeight="36dp"
+            android:text="@string/str_Transfer_money"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/Blanco_nuclear"
+            android:textColorLink="@color/Blanco_nuclear" />
+
+    </LinearLayout>
+
+</LinearLayout>

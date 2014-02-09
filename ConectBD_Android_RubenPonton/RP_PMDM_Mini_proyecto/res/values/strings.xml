@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BankAPP</string>
+    <string name="act_login">Login session</string>
+    <string name="act_operations">Operations</string>
+    <string name="act_account_movs">Account movements</string>
+    <string name="act_credit_card_movs">Credit card movements</string>
+    <string name="act_transfer">Money transfer</string>
+    <string name="act_key_card">Key card</string>
+    <string name="str_User">User</string>
+    <string name="str_Password">Password</string>
+    <string name="str_Go">Go</string>
+    <string name="str_Close_session">Close session</string>
+    <string name="str_Exit">Exit</string>
+    <string name="str_Back">Back</string>
+    <string name="str_From">From</string>
+    <string name="str_To">To</string>
+    <string name="str_To_transfer">To transfer</string>
+    <string name="str_amount">Amount</string>
+    <string name="str_Use_key_values">Use the values in the key card for the cells</string>
+    <string name="str_IBAN">IBAN</string>
+    <string name="str_CCA">Credit card account</string>
+    <string name="str_OK">OK</string>
+    <string name="str_Cancel">Cancel</string>
+    <string name="str_Are_you_sure">Are you sure?</string>
+    <string name="str_Check_accounts">Check accounts</string>
+    <string name="str_Checks_credit_cards">Check credit cards</string>
+    <string name="str_Transactions">Transactions</string>
+    <string name="str_Transfer_money">Transfer money between accounts</string>
+    <string name="str_Select_account">Select an account</string>
+    <string name="title_activity_transfer">Transfer</string>
+    <string name="title_activity_operations">Operations</string>
+    <string name="title_activity_account_selection">Account selection</string>
+    <string name="title_activity_keycard">Keycard</string>
+    <string name="str_XX">XX</string>
+    <string name="str_Checking_user_password">Checking the user and password</string>
+    <string name="str_User_Pass_Fail">Wrong user and/or password</string>
+    <string name="str_Retrieving_Client_Information">Retrieving client information</string>
+    <string name="str_Retrieving_Accounts_Information">Retrieving accounts information</string>
+    <string name="str_Full_name">Full name</string>
+    <string name="str_Address">Address</string>
+    <string name="str_Postal_code">Postal code</string>
+    <string name="str_City">City</string>
+    <string name="str_DNI">DNI</string>
+    <string name="str_Not_Implemented">This feature has not been implemented yet</string>
+    <string name="str_Server_off_line">Server is off-line or unreachable</string>
+    <string name="str_title_account_movements">Account movements</string>
+    
+
+</resources>

@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_redondeado_login"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Keycard" >
+
+    <TextView
+        android:id="@+id/tv_iban_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_From"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Blanco_nuclear" />
+
+    <TextView
+        android:id="@+id/tv_account_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azul_variacion_2"
+        android:gravity="right"
+        android:padding="4dp"
+        android:text="@string/str_XX"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Blanco_nuclear" />
+
+    <TextView
+        android:id="@+id/tv_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="@string/str_To"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Blanco_nuclear" />
+
+    <TextView
+        android:id="@+id/tv_account_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azul_variacion_2"
+        android:gravity="right"
+        android:padding="4dp"
+        android:text="@string/str_XX"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Blanco_nuclear" />
+
+    <TextView
+        android:id="@+id/tv_amount_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="@string/str_amount"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Blanco_nuclear" />
+
+    <TextView
+        android:id="@+id/tv_amount_transfer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azul_variacion_2"
+        android:gravity="right"
+        android:padding="4dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/Blanco_nuclear" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:text="@string/str_Use_key_values"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Blanco_nuclear" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_redondeado_acciones"
+        android:gravity="center_vertical|center_horizontal" >
+
+        <TextView
+            android:id="@+id/tv_first_cell"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:textColor="@color/Blanco_nuclear" />
+
+        <EditText
+            android:id="@+id/et_fc_value"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tv_second_cell"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:textColor="@color/Blanco_nuclear" />
+
+        <EditText
+            android:id="@+id/et_sc_value"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:ems="10"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+</LinearLayout>

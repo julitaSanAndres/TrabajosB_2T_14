@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="Blanco_nuclear">#FFFFFFFF</color>
+    <color name="Black_overlay">#66000000</color>
+    <color name="Black">#FF000000</color>
+    <color name="yellow_overlay">#44FFFD00</color>
+    
+    <color name="gris_oscuro_fondo_Google">#FFbbbbbb</color>
+    <color name="gris_medio_fondo_Google">#FFdddddd</color>
+    <color name="gris_claro_fondo_Google">#FFefefef</color>
+    <color name="gris_clarisimo_fondo_Google">#FFf9f9f9</color>
+    
+    <color name="morado_principal">#FF9d009d</color>
+    <color name="morado_variacion_1">#FF761d76</color>
+    <color name="morado_variacion_2">#FF660066</color>
+    <color name="morado_variacion_3">#FFce34ce</color>
+    <color name="morado_variacion_4">#FFce5dce</color>
+    
+    <color name="rojo_principal">#FFD80041</color>
+    <color name="rojo_variacion_1">#FFA2284d</color>
+    <color name="rojo_variacion_2">#FF8c002a</color>
+    <color name="rojo_variacion_3">#FFeb3b70</color>
+    <color name="rojo_variacion_4">#FFeb6a91</color>
+    
+    <color name="azul_principal">#FF4e0ea4</color>
+    <color name="azul_variacion_1">#FF4b277b</color>
+    <color name="azul_variacion_2">#FF30056b</color>
+    <color name="azul_variacion_3">#FF7f42d1</color>
+    <color name="azul_variacion_4">#FF9568d1</color>
+    
+    <color name="verde_principal">#FF34D800</color>
+    <color name="verde_variacion_1">#FF46A229</color>
+    <color name="verde_variacion_2">#FF228D00</color>
+    <color name="verde_variacion_3">#FF65EC3B</color>
+    <color name="verde_variacion_4">#FF89EC6A</color>
+    
+    <color name="verde_claro_lista">#FFe2f0b6</color>
+    <color name="verde_medio_lista">#FFc5e26d</color>
+    <color name="verde_oscuro_lista">#FF92c500</color>
+    
+    <color name="rojo_claro_lista">#FFffcaca</color>
+    <color name="rojo_medio_lista">#FFff9494</color>
+    <color name="rojo_oscuro_lista">#FFf83a3a</color>
+    
+    <color name="turquesa_principal">#FF00A383</color>
+    <color name="turquesa_variacion_1">#FF1F7A68</color>
+    <color name="turquesa_variacion_2">#FF006A55</color>
+    <color name="turquesa_variacion_3">#FF34D1B2</color>
+    <color name="turquesa_variacion_4">#FF5ED1BA</color>
+    
+    <color name="naranjas_principal">#FFFF6400</color>
+    <color name="naranjas_variacion_1">#FFBF6830</color>
+    <color name="naranjas_variacion_2">#FFA64100</color>
+    <color name="naranjas_variacion_3">#FFFF8B40</color>
+    <color name="naranjas_variacion_4">#FFFFAA73</color>
+    
+    <color name="rojizos_principal">#FFF30021</color>
+    <color name="rojizos_variacion_1">#FFB62E40</color>
+    <color name="rojizos_variacion_2">#FF9E0016</color>
+    <color name="rojizos_variacion_3">#FFF93E58</color>
+    <color name="rojizos_variacion_4">#FFF97083</color>
+
+</resources>

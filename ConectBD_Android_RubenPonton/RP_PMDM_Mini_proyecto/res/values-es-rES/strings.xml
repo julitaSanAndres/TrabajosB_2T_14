@@ -1,0 +1,49 @@
+<resources>
+
+    <string name="act_account_movs">Movimientos de cuenta</string>
+    <string name="act_credit_card_movs">Movimientos de la tarjeta</string>
+    <string name="act_key_card">Tarjeta de claves</string>
+    <string name="act_login">Iniciar sesión</string>
+    <string name="act_operations">Operaciones</string>
+    <string name="act_transfer">Traspasar dinero</string>
+    <string name="app_name">BankAPP</string>
+    <string name="str_Address">Dirección</string>
+    <string name="str_Are_you_sure">¿Está seguro?</string>
+    <string name="str_Back">Volver</string>
+    <string name="str_CCA">Cuenta de tarjeta</string>
+    <string name="str_Cancel">Cancelar</string>
+    <string name="str_Check_accounts">Comprobar cuentas</string>
+    <string name="str_Checking_user_password">Comprobando el usuario y la contraseña</string>
+    <string name="str_Checks_credit_cards">Comprobar tarjetas</string>
+    <string name="str_City">Población</string>
+    <string name="str_Close_session">Cerrar sesión</string>
+    <string name="str_DNI">DNI</string>
+    <string name="str_Exit">Salir</string>
+    <string name="str_From">De</string>
+    <string name="str_Full_name">Nombre</string>
+    <string name="str_Go">Confirmar</string>
+    <string name="str_IBAN">CCC</string>
+    <string name="str_Not_Implemented">Esta característica aún no está implementada</string>
+    <string name="str_OK">Ok</string>
+    <string name="str_Password">Contraseña</string>
+    <string name="str_Postal_code">CP</string>
+    <string name="str_Retrieving_Accounts_Information">Obteniendo información de las cuentas</string>
+    <string name="str_Retrieving_Client_Information">Obteniendo información del cliente</string>
+    <string name="str_Select_account">Elija una cuenta</string>
+    <string name="str_Server_off_line">El servidor está caído o no es posible contactar con él</string>
+    <string name="str_To">A</string>
+    <string name="str_To_transfer">A traspasar</string>
+    <string name="str_Transactions">Transacciones</string>
+    <string name="str_Transfer_money">Traspasar dinero entre cuentas</string>
+    <string name="str_Use_key_values">Use la tarjeta de claves para saber los códigos</string>
+    <string name="str_User">Usuario</string>
+    <string name="str_User_Pass_Fail">Usuario y/o contraseña incorrectos</string>
+    <string name="str_XX">XX</string>
+    <string name="str_amount">Cantidad</string>
+    <string name="str_title_account_movements">Movimientos de cuenta</string>
+    <string name="title_activity_account_selection">Selección de cuenta</string>
+    <string name="title_activity_keycard">Tarjeta de claves</string>
+    <string name="title_activity_operations">Operaciones</string>
+    <string name="title_activity_transfer">Traspasar</string>
+
+</resources>

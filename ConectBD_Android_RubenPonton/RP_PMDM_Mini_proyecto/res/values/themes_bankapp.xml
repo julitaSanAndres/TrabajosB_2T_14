@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="BankAPP" parent="android:Theme.Holo.Light.DarkActionBar">
+
+    <item name="android:editTextStyle">@style/EditTextBankAPP</item>
+
+    <item name="android:textColorHighlight">#9999cc00</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewBankAPP</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxBankAPP</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonBankAPP</item>
+
+    <item name="android:buttonStyle">@style/ButtonBankAPP</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonBankAPP</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerBankAPP</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemBankAPP</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarBankAPP</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarBankAPP</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarBankAPP</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigBankAPP</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallBankAPP</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleBankAPP</item>
+
+    <item name="android:listViewStyle">@style/ListViewBankAPP</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewBankAPP.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemBankAPP</item>
+
+  </style>
+
+</resources>
