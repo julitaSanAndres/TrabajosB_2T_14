@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fragments_Angel</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="fragments_inicio">FRAGMENTS</string>
+    <string name="descripcion_fragments">Con la siguiente App vamos a poder comprender el concepto y funcionamiento de los Fragments.</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="lanzarApp">Siguiente</string>
+    <string name="detalle">Detalle</string>
+    <string name="title_activity_fragment__lista">Fragment_Lista</string>
+    <string name="en_blanco"></string>
+
+</resources>

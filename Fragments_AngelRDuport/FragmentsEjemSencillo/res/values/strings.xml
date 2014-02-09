@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FragmentsEjemplo1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="fragment1">FRAGMENT 1</string>
+    <string name="fragment2">FRAGMENT 2</string>
+
+</resources>
