@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">cliente</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="blanco"></string>
+    <string name="mensaje">Mensaje a enviar</string>
+    <string name="enviar">Enviar</string>
+
+</resources>
