@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:id="@+id/MenuMaps">
+        <item android:id="@+id/Normal" android:title="@string/normal"></item>
+        <item android:id="@+id/Hibrido" android:title="@string/hibrido"></item>
+        <item android:id="@+id/Satelite" android:title="@string/satelite"></item>
+        <item android:id="@+id/Terreno" android:title="@string/terreno"></item>
+    </group>
+
+</menu>
