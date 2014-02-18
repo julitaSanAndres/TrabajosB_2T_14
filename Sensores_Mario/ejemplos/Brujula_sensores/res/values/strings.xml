@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Brujula_sensores</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_grafico_activity">Grafico_activity</string>
+    <string name="title_activity_texto_activity">Texto_activity</string>
+
+</resources>

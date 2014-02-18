@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button_grafico"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_texto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Grafico" />
+
+    <TextView
+        android:id="@+id/textView_mostrarTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="¿Donde esta Narnia?"
+        android:textSize="@dimen/titulo" />
+
+    <Button
+        android:id="@+id/button_texto"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_grafico"
+        android:layout_below="@+id/textView_mostrarTexto"
+        android:layout_marginTop="53dp"
+        android:text="Texto" />
+
+</RelativeLayout>
