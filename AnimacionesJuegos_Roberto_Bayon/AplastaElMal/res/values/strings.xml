@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AplastaElMal</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nuevo">Nuevo Juego</string>
+    <string name="instrucciones">Instrucciones</string>
+    <string name="title_activity_gestion_juego">GestionJuego</string>
+    <string name="title_activity_instrucciones">Instrucciones</string>
+    <string name="salir">Salir</string>
+    <string name="volver">Volver</string>
+    <string name="linea1">*Acaba con el mal y salva a las representantes del bien</string>
+    <string name="linea2">* Las representantes del bien son de colores claros y con aspecto de angeles, los representantes del mal son de colores oscuros y tienen pinta de peligrosos...!Aplastalos con tu dedo justiciero!</string>
+    <string name="linea3">* Si no controlas tu fuerza y acabas por accidente con una de las representantes del bien todo habra acabado..</string>
+    <string name="linea4">* Restaura el orden en el menor tiempo posible y bate tu record</string>
+
+</resources>
